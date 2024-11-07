@@ -1,0 +1,123 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.main{
+    height: 100vh;
+    background-color: rgb(180, 197, 228);
+    display: flex;
+    flex-direction:column ;
+}
+.name{
+    height:8vh;
+    background-color: #3252D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.name h1{
+    font-size: 3.6vmax;
+}
+.welcomemsg{
+    height:5vh;
+    background-color: #3252D5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2vmax;
+    border-top: 2px black solid;
+
+}
+.maincontext{
+    background-color: rgb(180, 197, 228);
+    height:75vh;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 2vmax;
+}
+.maincontext .bmain{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.maincontext #imgm img{
+    height:100%;
+    width:80%;
+    margin-left:9vw;
+
+
+}
+#text{
+    background-color: rgb(180, 197, 228);
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+}
+.mservice{
+    width: 100%;
+    height:50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: first baseline;
+    font-size: 1.2vmax;
+}
+.address{
+    background-color: #3252D5;
+    height:5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contactus{
+    background-color: #090c9b;
+    height:7vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #606472;
+    font-size: 1.5vmax;
+}
+
+@media (max-width: 776px) { 
+    .maincontext #text{
+        height: 100%;
+        width: 40%;
+    }
+    .maincontext #text #l1{
+        font-size: 1.6vmax;
+        font-weight: lighter;
+    }
+    .maincontext #img{
+        height: 100%;
+        width: 60%;
+       
+    }
+    .maincontext #imgm img{
+        height:100%;
+        width:100%;
+        margin-left:4vmax;
+    
+    
+    }
+    .contactus{
+        height:11vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.9vmax;
+        padding-left: .5vmax;
+        }
+    
+     }
+
+     
