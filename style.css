@@ -119,7 +119,7 @@
         }
     
      }
-       @media (max-width:330px) {
+       @media (max-width:400px) {
         .maincontext #text #msg{
             font-size: 1.7vmax;
             font-weight: lighter;
