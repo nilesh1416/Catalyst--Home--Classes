@@ -119,5 +119,15 @@
         }
     
      }
-
+       @media (max-width:330px) {
+        .maincontext #text #msg{
+            font-size: 1.7vmax;
+            font-weight: lighter;
+        }
+        .maincontext #text #l1{
+            font-size: 1.5vmax;
+            font-weight: lighter;
+        }
+        
+      }
      
